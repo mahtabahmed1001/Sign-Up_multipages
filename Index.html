@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice</title>
+        <link rel="stylesheet" href="Exercise.css">
+    </head>
+<body>
+   <header>
+            <nav>   
+                        <button class="navi"><a href="#">Home</a></button>
+                        <button class="navi"><a href="#">Service</a></button>
+                        <button class="navi"><a href="#">Contact</a></button>
+                        <button class="navi login-popup"><a href="#">Login</a></button>
+            </nav>
+   </header>
+      
+        <div class="container"> 
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            
+            <div class="box logged">
+                <h3>Login</h3>
+                <label for="">Email</label><input type="email" name="" id="">
+                <label for="">password</label> <input type="password">
+
+                <button type="button" class="btn logged-in">Login</button>
+                <button type="button" class="btn sign-up">SignUp</button>
+            </div>
+            <div class="box registration">
+                <div class="reg reg1">
+                    <h3>User Details</h3>
+                    <label for="">Full-Name</label><input type="text" name="" id="">
+                    <label for="">Username</label> <input type="text">
+                    <button class="btn nxt1">Next</button>
+                    <button class="btn login">Login</button>
+                </div>
+                <div class="reg reg2">
+                    <h3>Email</h3>
+                    <label for="">Email</label><input type="email" name="" id="">
+                    <label for="">ConFirm Email</label><input type="email" name="" id="">
+                    <button class="btn nxt2">Next</button>
+                    <button class="btn bck1">Back</button>
+                </div>
+                    
+                <div class="reg reg3">
+                    <h3>Password</h3>
+                    <label for="">Password</label> <input type="password">
+                    <label for="">Confirm Password</label> <input type="password">
+                    <button class="btn nxt3">Next</button>
+                    <button class="btn btn_bck">Back</button>
+                </div>
+                <div class="reg reg4">
+                    <h3>Submit</h3>
+                    <label for=""><input type="checkbox" name="" class="checkbox">I agree to the terms and Conditions</label>
+                    <button class="btn nxt4">Submit</button>
+                    <button class="btn bck3">Back</button>
+    
+                </div>
+            </div>
+        
+        
+        </div>
+
+        
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <script src="exercise.js"></script>
+</body>
+</html>
